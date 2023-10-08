@@ -1,0 +1,62 @@
+.researches {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.researches .category-dropdown {
+  margin-bottom: 20px;
+}
+
+.researches .category-dropdown label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.researches .category-dropdown select {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.researches .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin-top: 20px;
+}
+
+.researches .card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #ddd;
+  margin: 10px;
+  flex: 0 0 calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+}
+
+.researches .card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.researches .card .text {
+  padding: 20px;
+}
+
+.researches .card .text h2 {
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.researches .card .text p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}

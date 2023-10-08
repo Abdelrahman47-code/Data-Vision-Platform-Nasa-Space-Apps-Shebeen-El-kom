@@ -1,0 +1,158 @@
+/* Global */
+form {
+    display: flex;
+    gap: 5px;
+}
+form input {
+    padding: 5px 15px;
+    border-radius: 50px;
+    border: unset;
+}
+form button {
+    text-transform: uppercase;
+    background-color: var(--main-color);
+    border: solid 2px var(--main-color);
+    color: #fff;
+    padding: 5px 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    font-size: 13px;
+    cursor: pointer;
+    /* width: fit-content; */
+    transition: 0.1s;
+}
+/* Global */
+
+.communityPage {
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.communityPage .activities,
+.communityPage .members {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+    
+}
+.communityPage .activities {
+    border-right: solid 1px #ed2b27;
+}
+.communityPage .members {
+    border-left: solid 1px #ed2b27;
+}
+.communityPage .activities h2,
+.communityPage .members h2 {
+    color: #222;
+    font-size: 18px;
+    text-align: center;
+}
+.communityPage .activities .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.communityPage .activities .links .link {
+    font-size: 15px;
+    color: #222;
+    line-height: 1.6;
+}
+.communityPage .activities .links .link i {
+    margin-right: 10px;
+    color: #ed2b28;
+}
+.communityPage .community {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+    height: 660px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.communityPage .community h1 {
+    color: #222;
+    font-size: 25px;
+    line-height: 1.6;
+}
+.communityPage .community .posts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.communityPage .community .posts .post {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 0 10px #ddd;
+}
+.communityPage .community .posts .post .publisher {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.communityPage .community .posts .post .publisher img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.communityPage .community .posts .post .publisher h4 {
+    font-size: 15px;
+    font-weight: 400;
+}
+.communityPage .community .posts .post .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.communityPage .community .posts .post .content h2 {
+    color: #222;
+    font-size: 20px;
+    line-height: 1.6;
+}
+.communityPage .community .posts .post .content p {
+    color: #222;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.communityPage .community .posts .post .content .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.communityPage .community .posts .post .content .images img {
+    width: 100%;
+    border: solid 1px #f02e21;
+}
+.communityPage .members .list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 500px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.communityPage .members .list .item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.communityPage .members .list img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.communityPage .members .list h3 {
+    font-size: 15px;
+    font-weight: 400;
+}

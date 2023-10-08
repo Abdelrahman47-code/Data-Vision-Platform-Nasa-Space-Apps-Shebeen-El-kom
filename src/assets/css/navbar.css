@@ -1,0 +1,12 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+  }
+  
+  body {
+    padding-top: 80px;
+  }
+  
