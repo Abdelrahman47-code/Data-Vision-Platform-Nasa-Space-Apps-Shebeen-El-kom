@@ -1,0 +1,17 @@
+{
+    "name": null || ["Mohamed","Maher"],
+    "latests": [
+        {//latest researchs
+            title: "relation between time and gravity",
+            link: "/researchcode",
+            image: "asfhwervr.png"
+        }, //x6
+    ],
+    "recommended": [
+        {//recommended researchs
+            title: "relation between time and gravity",
+            link: "/researchcode",
+            image: "asfhwervr.png"
+        }, //x6
+    ]
+}
