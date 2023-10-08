@@ -1,0 +1,1 @@
+NOTE: this website must be opened in live server accourding to "CORS policy"
